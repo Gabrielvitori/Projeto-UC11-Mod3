@@ -2,8 +2,9 @@ import javax.swing.JOptionPane;
 
 public class cadastroVIEW extends javax.swing.JFrame {
 
-    private boolean cadastroSucesso;
-
+    
+    public boolean cadastroVIEW;
+    
     
     public cadastroVIEW() {
         initComponents();
@@ -143,6 +144,7 @@ public class cadastroVIEW extends javax.swing.JFrame {
         
         ProdutosDAO produtodao = new ProdutosDAO();
         produtodao.cadastrarProduto(produto);
+        boolean cadastroSucesso = false;
         
     
     if (cadastroSucesso) {
