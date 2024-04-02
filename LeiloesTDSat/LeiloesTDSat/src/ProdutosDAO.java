@@ -42,7 +42,7 @@ public class ProdutosDAO {
 
     public ArrayList<ProdutosDTO> listarProdutos() {
 
-        return listagem;
+        
         
         ArrayList<ProdutosDTO> listagem = new ArrayList<>();
         
