@@ -6,6 +6,10 @@ public class ProdutosDTO {
     private Integer valor;
     private String status;
 
+    ProdutosDTO(int id, String nome, double valor, String status) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     public Integer getId() {
         return id;
     }
